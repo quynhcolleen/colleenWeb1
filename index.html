@@ -11,9 +11,10 @@
             rel="stylesheet" />
         <link rel="stylesheet" href="./assets/css/style.css" />
         <link
-            rel="icon"
-            href="./assets/img/KIEN0609-Enhanced-NR (2).jpg"
-            type="image/x-icon" />
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet" />
+
+        <link rel="icon" href="./assets/img/pfp.jpg" type="image/x-icon" />
     </head>
 
     <body>
@@ -41,8 +42,14 @@
         <!-- ABOUT START -->
         <div class="about" id="about">
             <div class="anhQuynh">
-                <img src="./assets/img/clove.jpg" alt="Jinx FTRE" class="anh1" />
-                <img src="./assets/img/trans.png" alt="Jinx FTRE" class="anh2" />
+                <img
+                    src="./assets/img/clove.jpg"
+                    alt="Jinx FTRE"
+                    class="anh1" />
+                <img
+                    src="./assets/img/trans.png"
+                    alt="Jinx FTRE"
+                    class="anh2" />
             </div>
             <div class="text">
                 <p class="name">
@@ -377,18 +384,87 @@
             </div>
         </div>
         <!-- END OF SOCIAL -->
+        <!-- MUSIC PLAYER -->
+        <div class="music-player" id="music-player">
+            <div class="player-container">
+                <div class="player-controls">
+                    <button class="control-btn" id="prev-btn">
+                        <i class="material-icons" style="font-size: 36px"
+                            >fast_rewind</i
+                        >
+                    </button>
+                    <button class="control-btn play-btn" id="play-btn">
+                        <i class="material-icons" style="font-size: 36px"
+                            >play_arrow</i
+                        >
+                    </button>
+                    <button class="control-btn" id="next-btn">
+                        <i class="material-icons" style="font-size: 36px"
+                            >fast_forward</i
+                        >
+                    </button>
+                </div>
 
+                <div class="track-info">
+                    <img
+                        src="./assets/artwork/WILDERNESS.jpg"
+                        alt="Current track"
+                        id="track-artwork" />
+                    <div class="track-details">
+                        <h3 id="track-title">Wilderness</h3>
+                        <p id="track-artist">Jinx FTRE</p>
+                    </div>
+                </div>
+
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar">
+                        <div class="progress" id="progress"></div>
+                        <div class="seek-handle" id="seek-handle"></div>
+                    </div>
+                    <div class="time-info">
+                        <span id="current-time">0:00</span>
+                        <span id="total-time">3:45</span>
+                    </div>
+                </div>
+
+                <!-- Volume Control -->
+                <div class="volume-container">
+                    <button class="volume-btn" id="volume-btn">
+                        <i class="material-icons" style="font-size: 22px">volume_up</i>
+                    </button>
+                    <div class="volume-slider-container">
+                        <input
+                            type="range"
+                            min="0"
+                            max="100"
+                            value="80"
+                            class="volume-slider"
+                            id="volume-slider" />
+                    </div>
+                </div>
+
+                <button class="minimize-btn" id="minimize-btn">
+                        <i class="material-icons" id="icon-minimized" style="font-size: 30px">arrow_drop_down_circle</i>
+                </button>
+            </div>
+
+            <button class="expand-btn" id="expand-btn">
+                <i class="icon-music">♪</i>
+            </button>
+        </div>
+        <!-- END OF MUSIC PLAYER -->
         <!-- START OF FOOTER -->
         <div class="footer" id="contact">
             <p>Nghe nhac moi cua tao tai day nhe</p>
             <a
                 href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
                 target="_blank">
-                <button>ID LEAK ;)</button>
+                <button>ID LEAK</button>
             </a>
         </div>
 
         <script src="./assets/js/script.js"></script>
+        <script src="./assets/js/music-player.js"></script>
     </body>
 </html>
 
