@@ -5,13 +5,13 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Wilderness",
       artist: "Jinx FTRE",
       artwork: "./assets/artwork/WILDERNESS.jpg",
-      audioSrc: "./assets/audio/wilderness.wav",
+      audioSrc: "./assets/audio/wilderness.mp3",
     },
     {
       title: "Tò Te Tí (Remix)",
       artist: "Jinx FTRE, Wrens Evan, itsnk",
       artwork: "./assets/artwork/4t.jpg",
-      audioSrc: "./assets/audio/toteti.wav",
+      audioSrc: "./assets/audio/toteti.mp3",
     },
     {
       title: "Stay With Me",
@@ -23,25 +23,25 @@ document.addEventListener("DOMContentLoaded", () => {
       title: "Vulnerable",
       artist: "Tuanuki, Jinx FTRE",
       artwork: "./assets/artwork/vul.jpg",
-      audioSrc: "./assets/audio/vul.wav",
+      audioSrc: "./assets/audio/vul.mp3",
     },
     {
       title: "Thao Túng Tâm Trí (Remix)",
       artist: "Jinx FTRE, windsor boy",
       artwork: "./assets/artwork/riel.png",
-      audioSrc: "./assets/audio/tttt.wav",
+      audioSrc: "./assets/audio/tttt.mp3",
     },
     {
       title: "Mơ Làm Ma (Remix)",
       artist: "Kyozaku, Cloud Nine, Jinx FTRE, KZann",
       artwork: "./assets/artwork/ngot.png",
-      audioSrc: "./assets/audio/mlm.wav",
+      audioSrc: "./assets/audio/mlm.mp3",
     },
     {
       title: "Ngáo Ngơ (Remix)",
       artist: "Jinx FTRE",
       artwork: "./assets/artwork/clmm.png",
-      audioSrc: "./assets/audio/nn.wav",
+      audioSrc: "./assets/audio/nn.mp3",
     },
   ]
 
