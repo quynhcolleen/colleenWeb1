@@ -170,7 +170,7 @@ p {
 }
 
 .dsc {
-    background-color: #fff;
+    background-color: #1c1c1c;
     padding: 60px 5% 80px;
 }
 
@@ -183,14 +183,14 @@ p {
     font-weight: 800;
     font-size: 36px;
     margin-bottom: 15px;
-    color: #000;
+    color: #ffffff;
 }
 
 .text2 .note1 {
     font-style: italic;
     font-weight: 400;
     font-size: 16px;
-    color: #666;
+    color: #ffffff;
 }
 
 /* Infinite Scrolling Carousel */
@@ -238,14 +238,15 @@ p {
     font-size: 18px;
     font-weight: 800;
     padding-bottom: 8px;
-    color: #000;
+    color: #ffffff;
+    letter-spacing: 0.3px;
 }
 
 .carousel-item .artist {
     font-size: 14px;
     font-style: italic;
     font-weight: 400;
-    color: #666;
+    color: #ffffff;
 }
 
 @keyframes scroll {
@@ -331,7 +332,7 @@ p {
 }
 
 .footer {
-    background-color: #fff;
+    background-color: #1c1c1c;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -342,8 +343,9 @@ p {
 
 .footer p {
     text-align: center;
-    font-size: 14px;
-    color: #000;
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 0.3px;
 }
 
 .footer button {
@@ -351,15 +353,15 @@ p {
     border-radius: 6px;
     cursor: pointer;
     transition: 0.3s ease;
-    font-size: 14px;
-    border: 2px solid #000;
-    background: #fff;
-    color: #000;
+    font-size: 18px;
+    background: #000000;
+    border: solid #000 2px;
+    color: #ffffff;
 }
 
 .footer button:hover {
-    background-color: #000;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
 }
 .music-player {
     position: fixed;
